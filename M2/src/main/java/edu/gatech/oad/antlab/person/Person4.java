@@ -32,8 +32,8 @@ public class Person4 {
     private String calc(String input) {
       //Person 4 put your implementation here
       String output = "";
-      for (int i = 0, i < input.length(), i++) {
-          output = output + (char) (input.charAt(i) + 1)
+      for (int i = 0; i < input.length(); i++) {
+          output = output + (char) (input.charAt(i) + 1);
       }
       return output;
     }
