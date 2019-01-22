@@ -43,7 +43,7 @@ public class Person3 {
 	 */
 	private String calc(String input) {
 	  //Person 3 put your implementation here
-	  String str = input
+	  	String str = input;
       String reverse = "";
         
         
@@ -51,6 +51,6 @@ public class Person3 {
       {
         reverse = reverse + str.charAt(i);
       }
-	  return null;
+	  	return reverse;
 	}
 }
