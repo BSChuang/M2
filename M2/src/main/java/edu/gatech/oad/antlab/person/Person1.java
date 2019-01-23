@@ -1,10 +1,10 @@
-package main.java.edu.gatech.oad.antlab.person;
+package edu.gatech.oad.antlab.person;
 
 /**
  *  A simple class for person 1
  *  returns their name and a
- *  modified string 
- *  
+ *  modified string
+ *
  *  @author Ben Chuang
  *  @version 1.2
  */
@@ -33,13 +33,13 @@ public class Person1 {
 	  //Person 1 put your implementation here
 	  return input.substring(2, input.length()) + input.substring(0, 2);
 	}
-	
+
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
 	 * @param input the varying string
-	 * @return the string representing the 
+	 * @return the string representing the
 	 *         object
 	 */
 	public String toString(String input) {
